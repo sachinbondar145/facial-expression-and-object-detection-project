@@ -21,7 +21,7 @@ class _HomeState extends State<Home> {
             style: GoogleFonts.lato(
                 textStyle: Theme.of(context).textTheme.display1,
                 color: Colors.white,
-                fontSize: 14),
+                fontSize: 18),
           ))),
       backgroundColor: Color(0xFF0E0F1B),
       body: Container(
