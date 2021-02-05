@@ -140,3 +140,4 @@ class ReusableCard extends StatelessWidget {
     );
   }
 
+}
