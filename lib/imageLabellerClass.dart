@@ -6,7 +6,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
 
 String global;
-bool hFace = false;
+bool hFace = false
 
 class ObjectLabeller extends StatefulWidget {
   @override
