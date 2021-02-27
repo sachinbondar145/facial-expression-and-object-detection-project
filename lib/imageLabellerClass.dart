@@ -78,10 +78,10 @@ class _FacePageState extends State<ObjectLabeller> {
             : (_imageFile == null)
                 ? Center(
                     child: Column(
-                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
                       Text(
-                      'Find out the objects in the image!',
+                        'Find out the objects in the image!',
                         style: TextStyle(
                           fontFamily: 'Times new Roman',
                           fontSize: 20,
@@ -197,7 +197,7 @@ class _FacePageState extends State<ObjectLabeller> {
                 onTap: () {
                   _dectection('gallery');
                 },
-                label: 'Pick from gallery',
+                label: 'Pick from Gallery',
                 labelStyle: TextStyle(
                     fontWeight: FontWeight.w500,
                     color: Colors.white,
